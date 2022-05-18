@@ -5,7 +5,7 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://dashboard.heroku.com/apps/tanners-apollo-course",
+  uri: "https://tanners-apollo-course.herokuapp.com",
   cache: new InMemoryCache(),
 });
 
